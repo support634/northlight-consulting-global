@@ -6,20 +6,6 @@ export default function Footer() {
   return (
     <footer className="bg-brand-black border-t border-white/10">
       {/* CTA Strip */}
-      <div className="bg-gradient-to-r from-brand-purpleDeep to-brand-purple py-16 text-center px-6">
-        <h2 className="font-display text-3xl md:text-4xl font-black text-white mb-4">
-          Ready to Illuminate Your Brand?
-        </h2>
-        <p className="text-white/80 mb-8 max-w-xl mx-auto">
-          Let&apos;s build a strategy that moves the needle. Free consultation, no commitment.
-        </p>
-        <Link
-          href="#contact"
-          className="border border-white/50 text-white hover:border-white hover:bg-white hover:text-brand-purpleDeep font-bold px-8 py-4 rounded-full transition-all duration-200 inline-block"
-        >
-          Get a Free Consultation
-        </Link>
-      </div>
 
       {/* Links row */}
       <div className="max-w-7xl mx-auto px-6 lg:px-12 py-12 grid md:grid-cols-3 gap-8">

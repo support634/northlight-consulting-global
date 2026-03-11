@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"E:/FREELANCE/NLC Global/NLCSites/northlight-consulting-global\" && npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir=false --import-alias=\"@/*\" --no-git 2>&1)",
+      "Bash(cd \"E:/FREELANCE/NLC Global/NLCSites/northlight-consulting-global\" && npm install 2>&1)",
+      "Bash(cd \"E:/FREELANCE/NLC Global/NLCSites/northlight-consulting-global\" && npm run build 2>&1)"
+    ]
+  }
+}
